@@ -10,7 +10,7 @@ namespace AS_Projekt_3LJ_Hausverwaltung
     {
         void HoleImmobilien()
         {
-
+        //Placeholder
         }
     }
 }
