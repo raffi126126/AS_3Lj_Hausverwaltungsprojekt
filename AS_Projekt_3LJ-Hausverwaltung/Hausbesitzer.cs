@@ -8,6 +8,6 @@ namespace AS_Projekt_3LJ_Hausverwaltung
 {
     class Hausbesitzer
     {
-        string vorname, name, telefonnummer, faxnummer, personalausweis_id, strasse, stadt, land, hausnummer 
+        string vorname, name, telefonnummer, faxnummer, personalausweis_id, strasse, stadt, land, hausnummer; 
     }
 }

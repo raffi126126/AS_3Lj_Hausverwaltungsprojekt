@@ -102,37 +102,13 @@ namespace AS_Projekt_3LJ_Hausverwaltung
 
         #region Fachkonzept => DB
 
-        static SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;
-                AttachDbFilename=C:\Users\Krause\Documents\Hausverwaltungs_DB.mdf;
-                Integrated Security=True;
-                Connect Timeout=30");
+ 
         public static void DB_Connect()
         {
             
         }
 
-        public static void DatenBankbefehl(string sqlBefehl)
-        {
 
-            
-
-            //SqlConnection Con = new SqlConnection(sqlCon);
-            var commandStr = "If not exists (select name from sysobjects where name = 'Customer') CREATE TABLE Customer(First_Name char(50),Last_Name char(50),Address char(50),City char(50),Country char(25),Birth_Date datetime)";
-
-            using (SqlCommand command = new SqlCommand(commandStr, con))
-                try
-                {
-                    con.Open();
-                    command.ExecuteNonQuery();
-                    con.Close();
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex);
-                    Console.ReadKey();
-                }
-            
-        }
 
 #endregion
 

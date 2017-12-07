@@ -11,5 +11,9 @@ namespace AS_Projekt_3LJ_Hausverwaltung
         List<Immobilie> HoleImmobilien();
 
         List<Hausbesitzer> HoleHausbesitzer();
+
+        List<Hausbesitzer> HoleBesitzerverhaeltnisse();
+
+        
     }
 }

@@ -12,5 +12,10 @@ namespace AS_Projekt_3LJ_Hausverwaltung
         {
         //Placeho
         }
+        public void HoleBesitzerverhaeltnisse()
+        {
+
+        }
+
     }
 }
